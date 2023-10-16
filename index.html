@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Coding By Easy Web Learner -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="form">
+      <input type="text" placeholder="Enter data for QR code" class="input">
+      <button class="generate-btn">Generate QR Code</button>
+      <a class="download-btn" href="#" download="qr-code.png" style="display: none">Download QR Code</a>
+    </div>
+    <div class="qr-code">
+      <canvas id="qr-canvas" width="200" height="200"></canvas>
+    </div>
+  </div>
+  <!-- JS -->
+  <script src="/script.js"></script>
+
+</body>
+</html> 
